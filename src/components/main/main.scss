@@ -1,0 +1,152 @@
+/*--------------------- Header Style -------------------------*/
+.navbar{
+  .navbar-brand{
+    .logo__brand{
+      width: 100px;
+    }
+  }
+
+  .header__location{
+    .header__location__img{
+      width: 15px;
+    }
+    .map__country{
+      .location__text{
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 10px;
+      }
+      .location__country{
+        font-size: 16px;
+      }
+    }
+  }
+
+  .input-group{
+    width: 55%;
+    margin-left: 20px;
+    .header__search{
+      &:focus{
+        border-color: #d39e00;
+        box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
+      }
+    }
+    .header__search__btn{
+      .search__icon{
+        width: 20px;
+      }
+    }
+  }
+
+  .header__language{
+    .usa__flag{
+      width: 30px;
+    }
+  }
+
+  .header__sign-in{
+    .header__sign{
+      .header__paragraph{
+        font-size: 15px;
+        line-height: 10px;
+      }
+      .header__account{
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .header__return{
+    .header__return__paragraph{
+      font-size: 15px;
+      line-height: 10px;
+    }
+    .header__return__orders{
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .header__basket{
+    .shopping__basket{
+      width: 50px;
+      height: 35px;
+      position: relative;
+    }
+
+    .shopping__count{
+      position: absolute;
+      top: 5px;
+      right: 90px;
+      font-size: 16px;
+      font-weight: bolder;
+      color: #fff;
+    }
+  }
+}
+
+/*------------------- HeaderAndMain Style --------------------*/
+.header__slider{
+  width: 100%;
+  position: relative;
+
+  .slider__img{
+    width: 100%;
+    z-index: -99!important;
+  }
+
+  .slick-prev, .slick-next{
+    width: 40px;
+    height: 100px;
+    color: red;
+    background: #a9a9a9;
+    opacity: 0.5;
+    padding-top: 40px;
+  }
+  .slick-prev{
+    padding-left: 10px;
+    left: -50px!important;
+  }
+  .slick-next{
+    padding-left: 10px;
+    right: -50px!important;
+  }
+}
+
+/*---------------- HeaderAndMain Products Style --------------*/
+.main__products{
+  width: 96%;
+  margin: 0 auto;
+  z-index: 99;
+  position: absolute;
+  top: 300px;
+  left: 2%;
+  right: 2%;
+
+  .col-3{
+    .card{
+      .btn-warning{
+        padding: 5px;
+        font-size: 13px;
+        border-radius: 10px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+/*--------------- Main Slider Style --------------------------*/
+.main__slider{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 1100px;
+
+  .slick-prev, .slick-next{
+    width: 40px;
+    height: 100px;
+    color: red;
+    background: #a9a9a9;
+    opacity: 0.5;
+  }
+}
